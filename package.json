@@ -25,7 +25,8 @@
   "devDependencies": {
     "redux-logger": "^3.0.6",
     "source-map-explorer": "^1.5.0",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.7.1"
+    "webpack": "3.11.0",
+    "webpack-dashboard": "1.1.1",
+    "webpack-dev-server": "2.11.2"
   }
 }

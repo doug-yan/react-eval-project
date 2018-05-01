@@ -1,4 +1,11 @@
-import {SET_REPOS} from 'constants/actionTypes'
+import {SET_REPOS, SET_REPOS_SUCCESS} from 'constants/actionTypes'
+
+export function getReposSuccess (repos) {
+  return {
+    type: SET_REPOS_SUCCESS,
+    repos
+  }
+}
 
 export function getRepos () {
   return (dispatch) => {
@@ -7,6 +14,7 @@ export function getRepos () {
         type: SET_REPOS,
         payload: require('./repos.json')
       })
-    }, 1000)
+    }, 600)
+    dispatch(getReposSuccess(require('./repos.json')))
   }
 }

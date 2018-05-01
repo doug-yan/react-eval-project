@@ -1,0 +1,44 @@
+.repo-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #eaeaea;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  color: black;
+  width: 300px;
+  border-radius: 5px;
+  &:hover {
+    background-color: #ddd7d7;
+  }
+}
+
+.repo-details-name {
+  font-size: 20px;
+  padding: 15px;
+}
+
+.repo-details-right-side {
+  font-size: 15px;
+  float: right;
+  padding: 9px 15px;
+  text-align: right;
+  align-items: right;
+}
+
+.repo-details-right-side-language {
+  padding-top: 6px;
+}
+
+.pop-icon {
+  height: 15px;
+}
+
+.stars-count {
+  padding-right: 1px;
+}
+
+.forks-count {
+  padding-left: 5px;
+  padding-right: 1px;
+}
