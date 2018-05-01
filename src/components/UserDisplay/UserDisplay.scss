@@ -1,0 +1,12 @@
+.user-display {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar-image {
+  height: 150px;
+  border-radius: 50%;
+  border-color: black;
+  border-style: solid;
+  margin-right: 30px;
+}
